@@ -5,7 +5,7 @@ System requirements :
  - Git
  - Java 8+
  - Maven 3+
- - Node 10+
+ - Node 12+
 
 Steps to Install : 
 
