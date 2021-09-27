@@ -11,11 +11,11 @@ System requirements :
 
 Steps to Install : 
 
- 1) Clone the repositories : 
-     - https://github.com/samratnayak/EmployeeManagementApi.git
-     - https://github.com/samratnayak/EmployeeManagement-UI.git
+ 1) Clone the repositories in different paths : 
+     - https://github.com/samratnayak/EmployeeManagementApi.git (e.x : api/)
+     - https://github.com/samratnayak/EmployeeManagement-UI.git (e.x : ui/)
  3) Start the API application
-     - Go to Root where pom.xml is present
+     - Go to Root (api/EmployeeManagementApi/) where pom.xml is present
      - Run `mvn clean install`
      - Now cd target/
      - From command line, run `java -jar EmployeeManagement-0.0.1-SNAPSHOT.jar`
@@ -24,7 +24,7 @@ Steps to Install :
      - Copy the jdbc URL from log (it's different for every start-up), input it in 'JDBC URL' field (it's format : jdbc:h2:mem:7c99182f-fa99-42a8-b90f-954150d03e51)
      - Click test connection, on successful, click on connect to connect the DB
  5) Start the UI app
-    - Go to UI project root where package.json is present
+    - Go to UI project root (ui/EmployeeManagement-UI/) where package.json is present
     - Run `npm install`
     - Once it is complete after a few minutes, run `npm start`
     - Hit the browser with URL: http://localhost:3000 
